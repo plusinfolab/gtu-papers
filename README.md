@@ -1,14 +1,11 @@
-# GTU Papers content
+# GTU Papers
 
-Content for the GTU Papers Android app (`com.pluslabs.gtupapers`).
+Previous year question papers for GTU (Gujarat Technological University) BE students, used by the
+GTU Papers Android app by PlusInfoLab.
 
-- `catalog.json`: BE branches and subjects; for each subject the exam sessions in its paper and the page each starts on.
-- `repeats/<subject code>.json`: questions GTU set in two or more exam sessions, most asked first.
-- Releases `papers-0`, `papers-1`, `papers-2`: one PDF per subject (`<subject code>.pdf`), every session's paper
-  merged, newest first. A subject is in `papers-N` where N = its code's last character code % 3 (GitHub allows
-  1,000 files per release).
+- Every BE branch and semester
+- Papers from the last five years, each subject's papers together in one file
+- Questions asked again and again, per subject
 
-Syllabus PDFs are not stored here: the app opens GTU's own copies.
-
-Papers come from Gujarat Technological University's public question paper repository. Built with
-`tool/build_content.py` in the app repo. Not affiliated with GTU.
+Papers are from GTU's public question paper repository. This project is not affiliated with Gujarat
+Technological University.
